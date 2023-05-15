@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<data>
+    <item>
+        <firstName>sonu</firstName>
+        <middleName>dinesh</middleName>
+        <lastName>pal</lastName>
+        <PhoneNumber>8401925870</PhoneNumber>
+        <Standard>11</Standard>
+        <Section>comm</Section>
+        <DOB>2023-06-17</DOB>
+        <Gender>male</Gender>
+        <Country>india</Country>
+        <State>Gujarat</State>
+        <Address>hariyaPark</Address>
+    </item>
+</data>

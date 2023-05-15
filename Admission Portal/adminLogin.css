@@ -1,0 +1,214 @@
+body {
+    background-image: linear-gradient(150deg, rgb(232, 201, 247), rgb(122, 191, 235));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 618px;
+}
+
+#navBar {
+    background-color: black;
+    padding: 5px;
+}
+
+ul {
+
+    display: flex;
+    margin: 5px;
+    flex-direction: row;
+    width: auto;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+li {
+    color: whitesmoke;
+    display: inline;
+
+}
+
+#adminLoginNav {
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+    height: 100%;
+}
+
+#adminLoginForm {
+    padding: 2%;
+    background-image: linear-gradient(45deg rgb(0, 255, 229), pink);
+    display: block;
+    width: 35%;
+    margin-left: 32%;
+    margin-top: 8%;
+    border: 2px solid;
+    border-radius: 25px 5px 25px 5px;
+    background-image: linear-gradient(45deg, rgb(221, 243, 161), rgb(204, 194, 249));
+    
+}
+
+#adminLoginForm:hover {
+    border-color: crimson;
+    width: 50%;
+    margin-left: 22.5%;
+    border-radius: 15px;
+    height: 30%;
+    margin-top: 8%;
+    padding: 3%;
+
+}
+
+#hedaingForLogin {
+    color: black;
+    text-align: center;
+    margin-top: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.label {
+    display: block;
+    margin-left: 25%;
+}
+
+.label:hover {
+    color: rgb(125, 25, 248);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input {
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5px;
+    padding: 5px;
+
+}
+
+.input:hover {
+    background-color: whitesmoke;
+    border-color: rgb(88, 174, 236);
+
+}
+
+#adminLoginBtn {
+    background-color: #f0f6f8;
+    border-color: #46c2df;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 24.8%;
+    margin-bottom: 12px;
+    padding: 4px;
+    font-size: medium;
+    font-weight: 500;
+    font-style: italic;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#adminLoginBtn:hover {
+    background-color: #46c2df;
+    color: white;
+    width: 16%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#adminCreateAccBtn {
+    background-color: #f0f6f8;
+    border-color: #46c2df;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+    width: 26%;
+    margin-top: 20px;
+    margin-left: 10.2%;
+    margin-bottom: 12px;
+    padding: 4px;
+    font-size: medium;
+    font-weight: 500;
+    font-style: italic;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#adminCreateAccBtn:hover {
+    background-color: #46c2df;
+    color: white;
+    margin-top: 20px;
+    width: 28%;
+    margin-left: 8.2%;
+    margin-bottom: 20px;
+}
+
+#invalidErrorMessage {
+    display: block;
+    color: rgb(248, 63, 63);
+    width: 60%;
+    margin-left: 25%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#schoolName {
+    display: block;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: large;
+    width: 25%;
+    margin-left: 40%;
+    font-weight: 800;
+    text-shadow: 3px 3px 3px #9387ee
+}
+
+
+/* registration css */
+
+#adminRegistrationForm {
+    width: 50%;
+    margin-left: 25%;
+    border: 2px solid;
+    padding: 1%;
+    margin-top: 5%;
+    border-radius: 20px 5px 20px 5px;
+    background-image: linear-gradient(45deg, rgb(248, 177, 244), rgb(183, 244, 246));
+}
+
+#messageToAdminReg {
+
+    display: block;
+    width: 40%;
+    margin-left: 35%;
+    padding: 0%;
+    margin-top: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submitNewAdminDetail {
+    display: inline;
+    width: 18%;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+#submitNewAdminDetail:hover {
+    background-color: rgb(148, 231, 148);
+
+}
+
+#backToLogin {
+    display: inline;
+    width: 15%;
+    margin-left: 17.5%;
+    margin-top: 10px;
+}
+
+span {
+    display: block;
+    color: rgb(248, 63, 63);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    margin-left: 40%;
+}

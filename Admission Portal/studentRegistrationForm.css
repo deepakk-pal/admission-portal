@@ -1,0 +1,99 @@
+body {
+    background-image: linear-gradient(45deg, rgb(245, 245, 149), rgb(239, 165, 62));
+}
+
+#studentRegistrationForm {
+    border: 3px double black;
+    width: 40%;
+    margin-left: 32%;
+    border-radius: 18px 4px 18px 4px;
+    background-image: linear-gradient(45deg, rgb(155, 231, 243), rgb(235, 170, 249));
+}
+
+#studentForm {
+    width: 30%;
+    margin-left: 43%;
+    box-shadow: 2px;
+}
+
+#schoolLogo {
+    height: 70px;
+    width: 80px;
+    margin-left: 39%;
+    margin-top: 5px;
+}
+
+.label {
+    display: block;
+    width: 20%;
+    margin-left: 25%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.label:hover {
+    color: crimson;
+}
+
+.input {
+    display: block;
+    width: 40%;
+    margin-left: 25%;
+    margin-bottom: 5px;
+    padding: 6px;
+}
+
+.input:hover {
+    border-color: darkviolet;
+    border: 2px solid;
+    width: 42%;
+    border-radius: 8px;
+
+
+}
+
+#submitDetails {
+    border: 2px solid green;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline;
+    width: 15%;
+    margin-left: 25%;
+    padding: 3px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+#submitDetails:hover {
+    border-radius: 12px;
+    width: 16%;
+
+    background-color: rgb(93, 246, 157);
+    color: rgb(22, 20, 20);
+    font-weight: bold;
+}
+
+#backToHomePage {
+    border: 2px solid red;
+    width: 15%;
+    margin-left: 11%;
+    padding: 3px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+#backToHomePage:hover {
+    border-radius: 12px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgb(248, 120, 120);
+    width: 16%;
+    margin-left: 10%;
+}
+
+span {
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+    color: red;
+
+}

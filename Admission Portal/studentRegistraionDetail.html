@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="studentRegistrationForm.css">
+</head>
+
+<body>
+    <h3 id="studentForm">Student Registration Form</h3>
+
+    <!-- this div for student admission form -->
+    <div id="studentRegistrationForm">
+        <img src="school logo.jpg" alt="school logo" id="schoolLogo">
+
+        <!-- firstname -->
+        <label for="studentFirstName" class="label">Firstname</label>
+        <input class="input" type="tel" id="studentFirstName" placeholder="Enter student first name">
+        <span id="firstname_error"></span>
+
+        <!-- middle name  -->
+        <label for="studentMiddleName" class="label">Middlename</label>
+        <input class="input" type="tel" id="studentMiddleName" placeholder="Enter student Middle name">
+        <span id="middlename_error"></span>
+
+        <!-- last name -->
+        <label for="studentLastName" class="label">Lastname</label>
+        <input class="input" type="tel" id="studentLastName" placeholder="Enter student last name">
+        <span id="lastname_error"></span>
+
+        <!-- phone number -->
+        <label for="studentPhoneNumber" class="label">Phone number</label>
+        <input class="input" type="tel" id="studentPhoneNumber" placeholder="Enter student phone number" maxlength="10">
+        <span id="phone_error"></span>
+
+        <!-- standard -->
+        <label for="studentStandard" class="label">Standard</label>
+        <input class="input" type="tel" id="studentStandard" placeholder="Enter student class" maxlength="2">
+        <span id="Standard_error"></span>
+
+        <!-- section -->
+        <label for="studentSection" class="label">Sec/Stream</label>
+        <input class="input" type="tel" id="studentSection" placeholder="Enter sec/stream">
+        <span id="Section_error"></span>
+
+        <!-- date of birth -->
+        <label for="studentDOB" class="label">Date of birth</label>
+        <input class="input" type="date" id="studentDOB">
+        <span id="date_error"></span>
+
+        <!-- gender -->
+        <label for="gender" class="label">Gender</label>
+        <select name="gender" id="gender" class="input">
+            <option value="">Select Gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+        </select>
+        <span id="gender_error"></span>
+
+        <!-- Country -->
+        <label for="studentCountry" class="label">Country</label>
+        <select id="studentCountry" class="input">
+            <option value="">Select country</option>
+            <option value="india">India</option>
+            <option value="nepal">Nepal</option>
+        </select>
+        <span id="country_error"></span>
+
+        <!-- State -->
+        <label for="studentState" class="label">State</label>
+        <select id="studentState" class="input">
+            <option value="">Select state</option>
+        </select>
+        <span id="state_error"></span>
+
+        <!-- adress -->
+        <label for="studentAddress" class="label">Address</label>
+        <input class="input" type="text" id="studentAddress">
+        <span id="adress_error"></span>
+
+        <!-- button to submit the records -->
+        <button id="submitDetails">Submit</button>
+        <a href="studentDetailReport.php"><button id="backToHomePage">Back</button></a>
+    </div>
+
+
+
+    <!-- java script tags -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="studentRegistration.js"></script>
+</body>
+
+</html>

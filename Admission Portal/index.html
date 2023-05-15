@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin's Page</title>
+    <link rel="stylesheet" href="adminLogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+
+<body>
+    <h3 id="schoolName">Welcom To <b>S</b>&<b>D</b> school <i class="fa-solid fa-school"></i></h3>
+
+
+    <div id="navBar">
+        <ul>
+            <li><i class="fa-solid fa-bars"></i></li>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>student Login</li>
+            <li id="adminLoginNav">Admin Login</li>
+        </ul>
+    </div>
+
+    <!-- this div is for admin login -->
+    <div id="adminLoginForm" style="display: block;">
+        <h4 id="hedaingForLogin">Admin Login <i class="fa-solid fa-computer"></i></h4>
+
+        <!-- admin user name -->
+        <label for="adminUserName" class="label">Username</label>
+        <input type="text" id="adminUserName" placeholder="UserName" class="input">
+
+        <!-- admin password -->
+        <label for="adminPassword" class="label">Password</label>
+        <input type="password" id="adminPassword" placeholder="Password" class="input">
+
+        <!-- span is for displying the incorrect username or password -->
+        <span id="invalidErrorMessage"></span>
+
+        <!-- buttons for the login and creating account -->
+        <button id="adminLoginBtn">Login</button>
+        <button id="adminCreateAccBtn">Create Account</button>
+    </div>
+
+
+
+    <!-- this div is for admin registration -->
+    <div id="adminRegistrationForm" style="display: none;">
+
+        <h4 id="messageToAdminReg">Register Yourself <i class="fa-regular fa-address-card"></i></h4>
+
+        <!-- admin username -->
+        <label for="newAdminUsername" class="label">UserName</label>
+        <input type="text" id="newAdminUsername" class="input">
+        <span id="UserNameError"></span>
+
+        <!-- admin firstname -->
+        <label for="newAdminFirstname" class="label">FirstName</label>
+        <input type="text" id="newAdminFirstname" class="input">
+        <span id="firstnameError"></span>
+
+        <!-- admin lastname -->
+        <label for="newAdminLastname" class="label">LatstName</label>
+        <input type="text" id="newAdminLastname" class="input">
+        <span id="LastNameError"></span>
+
+        <!-- admin password -->
+        <label for="newAdminpassword" class="label">Password</label>
+        <input type="password" id="newAdminpassword" class="input">
+        <span id="newPasswordError"></span>
+
+        <!-- re enter the password -->
+        <label for="newAdminCnrfmpassword" class="label">Confirm Password</label>
+        <input type="password" id="newAdminCnrfmpassword" class="input">
+        <span id="newCnrfmPasswordError"></span>
+
+        <!-- admin key -->
+        <label for="newAdminkey" class="label">Admin Key <i class="fa-solid fa-unlock-keyhole"></i></label>
+        <input type="text" id="newAdminkey" class="input">
+        <span id="newAdminKeyError"></span>
+
+        <!-- button to submit and add -->
+        <button id="submitNewAdminDetail"><i class="fa-solid fa-share-from-square"></i></button>
+        <a href="index.html"><button id="backToLogin">Back <i class="fa-solid fa-rotate-left"></i></button></a>
+    </div>
+
+
+
+    <!-- java script tags -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="adminLogin.js"></script>
+</body>
+
+</html>
